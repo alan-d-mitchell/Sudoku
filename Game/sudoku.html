@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku</title>
+    <link rel="stylesheet" href="sudoku.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-overlay"></div>
+    <div class="container">
+        <h1 class="glitch">SUDOKU</h1>
+        <div class="controls">
+            <div class="difficulty-selection">
+                <button class="difficulty-btn rainbow" data-difficulty="easy">EASY</button>
+                <button class="difficulty-btn rainbow" data-difficulty="medium">MEDIUM</button>
+                <button class="difficulty-btn rainbow" data-difficulty="hard">HARD</button>
+            </div>
+            <div class="action-buttons">
+                <button class="check-btn pulse">CHECK</button>
+                <button class="solve-btn pulse">SOLVE</button>
+            </div>
+        </div>
+        <div class="sudoku-grid disco" id="sudoku-grid"></div>
+    </div>
+    <script src="sudoku.js"></script>
+</body>
+</html>
